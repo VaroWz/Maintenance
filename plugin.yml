@@ -1,0 +1,8 @@
+api: spigot.jar
+name: Maintenance
+author: VaroWz
+version: 2.0.0
+main: fr.varowz.main.MainMaintenance
+commands:
+  maintenance:
+    description: Open gui to enable/disable maintenance

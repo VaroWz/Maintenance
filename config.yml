@@ -1,0 +1,39 @@
+# Name: Maintenane
+# Author: VaroWz
+# Version: 2.0.0
+# Support: https://discord.gg/SbKrKehCpq
+# Discord: Antoine#4185
+# Price: 1€
+# Donate: paypal.me/antoinebw
+
+Maintenance: false
+
+Items:
+  Enable:
+    type: WOOL
+    name: "&2&lActiver la &a&lMaintenance"
+    lore: "&7Clique pour activer la maintenance"
+    quantity: 1
+    data: 13
+  Disable:
+    type: WOOL
+    name: "&4&lDésactiver la &c&lMaintenance"
+    lore: "&7Clique pour désactiver la maintenance"
+    quantity: 1
+    data: 14
+
+Messages:
+
+  Prefix: "&f[&2Maintenance&f] &7"
+
+  NoPerm: "&cTu n'as pas la permission de faire ça."
+  GuiMaintenanceName: "&2&lMaintenance &7>>"
+  MaintenanceEnableLog: "&7&lMaintenance ACTIVE"
+  MaintenanceDisableLog: "&7&lMaintenance DESACTIVE"
+  MaintenanceEnableTitle: "&2&lMaintenance &a&lActivée !"
+  MaintenanceAlreadyEnable: "&cLa maintenance est déjà &aactivée"
+  MaintenanceAlreadyDisable: "&cLa maintenance est déjà &cdésactivée"
+  SuccesEnable: "&aLa maintenance est &aactivée &aavec succès"
+  SuccesDisable: "&aLa maintenance est &cdésactivée &aavec succès"
+  PlayerKick: "&4&lLe serveur est en maintenance, revenez plus tard..."
+  PlayerBypass: "&2Tu as la permission de rester sur le serveur"
