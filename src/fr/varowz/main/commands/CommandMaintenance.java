@@ -19,7 +19,7 @@ import utils.TitleManager;
 
 public class CommandMaintenance implements CommandExecutor {
 	
-	MainMaintenance main;
+	private MainMaintenance main;
 	
 	public CommandMaintenance(MainMaintenance maintenance) {
 		this.main =  maintenance;

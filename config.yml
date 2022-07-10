@@ -1,6 +1,6 @@
 # Name: Maintenane
 # Author: VaroWz
-# Version: 2.0.0
+# Version: 2.0.1
 # Support: https://discord.gg/SbKrKehCpq
 # Discord: Antoine#4185
 # Price: 1€
@@ -11,14 +11,14 @@ Maintenance: false
 Items:
   Enable:
     type: WOOL
-    name: "&2&lActiver la &a&lMaintenance"
-    lore: "&7Clique pour activer la maintenance"
+    name: "&2&lEnable the &a&lMaintenance"
+    lore: "&7Click to enable the maintenance"
     quantity: 1
     data: 13
   Disable:
     type: WOOL
-    name: "&4&lDésactiver la &c&lMaintenance"
-    lore: "&7Clique pour désactiver la maintenance"
+    name: "&4&lDisable the &c&lMaintenance"
+    lore: "&7Click to disable the maintenance"
     quantity: 1
     data: 14
 
@@ -26,14 +26,14 @@ Messages:
 
   Prefix: "&f[&2Maintenance&f] &7"
 
-  NoPerm: "&cTu n'as pas la permission de faire ça."
+  NoPerm: "&cYou don't have permission to do this."
   GuiMaintenanceName: "&2&lMaintenance &7>>"
-  MaintenanceEnableLog: "&7&lMaintenance ACTIVE"
-  MaintenanceDisableLog: "&7&lMaintenance DESACTIVE"
-  MaintenanceEnableTitle: "&2&lMaintenance &a&lActivée !"
-  MaintenanceAlreadyEnable: "&cLa maintenance est déjà &aactivée"
-  MaintenanceAlreadyDisable: "&cLa maintenance est déjà &cdésactivée"
-  SuccesEnable: "&aLa maintenance est &aactivée &aavec succès"
-  SuccesDisable: "&aLa maintenance est &cdésactivée &aavec succès"
-  PlayerKick: "&4&lLe serveur est en maintenance, revenez plus tard..."
-  PlayerBypass: "&2Tu as la permission de rester sur le serveur"
+  MaintenanceEnableLog: "&7&lMaintenance ENABLE"
+  MaintenanceDisableLog: "&7&lMaintenance DISABLE"
+  MaintenanceEnableTitle: "&2&lMaintenance &a&lEnabled !"
+  MaintenanceAlreadyEnable: "&cThe maintenance is already &aenabled"
+  MaintenanceAlreadyDisable: "&cThe maintenance is already &cdisable"
+  SuccesEnable: "&aThe maintenance is now &aenable"
+  SuccesDisable: "&aThe maintenance is now &cdisable"
+  PlayerKick: "&4&lThe server is under maintenance, come back later..."
+  PlayerBypass: "&2You have permission to stay on the server."

@@ -19,6 +19,7 @@ public class TitleManager {
 		((CraftPlayer) player).getHandle().playerConnection.sendPacket(p);
 		((CraftPlayer) player).getHandle().playerConnection.sendPacket(p2);
 		sendTime(player, ticks);
+		sendTime(player, ticks);
 	}
  
 	public static final void sendTime(Player player, int ticks) {

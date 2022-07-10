@@ -16,9 +16,9 @@ public class MainMaintenance extends JavaPlugin{
 		
 		saveDefaultConfig();
 		
-		Bukkit.getConsoleSender().sendMessage(getConfig().getString("Messages.Prefix").replace("&", "§") + "§aPlugin §7[§e2.0.0§7] §ais online.");
-		Bukkit.getConsoleSender().sendMessage(getConfig().getString("Messages.Prefix").replace("&", "§") + "§aPlugin §7[§e2.0.0§7] §cDev by VaroWz.");
-		Bukkit.getConsoleSender().sendMessage(getConfig().getString("Messages.Prefix").replace("&", "§") + "§aPlugin §7[§e2.0.0§7] §9Discord: https://discord.gg/SbKrKehCpq.");
+		Bukkit.getConsoleSender().sendMessage(getConfig().getString("Messages.Prefix").replace("&", "§") + "§aPlugin §7[§e2.0.1§7] §ais online.");
+		Bukkit.getConsoleSender().sendMessage(getConfig().getString("Messages.Prefix").replace("&", "§") + "§aPlugin §7[§e2.0.1§7] §cDev by VaroWz.");
+		Bukkit.getConsoleSender().sendMessage(getConfig().getString("Messages.Prefix").replace("&", "§") + "§aPlugin §7[§e2.0.1§7] §9Discord: https://discord.gg/SbKrKehCpq.");
 		
 		
 	}
@@ -26,7 +26,7 @@ public class MainMaintenance extends JavaPlugin{
 	@Override
 	public void onDisable() {
 		
-		Bukkit.getConsoleSender().sendMessage(getConfig().getString("Messages.Prefix").replace("&", "§") + "§cPlugin §7[§e2.0.0§7] §cis offline.");
+		Bukkit.getConsoleSender().sendMessage(getConfig().getString("Messages.Prefix").replace("&", "§") + "§cPlugin §7[§e2.0.1§7] §cis offline.");
 
 		
 	}
